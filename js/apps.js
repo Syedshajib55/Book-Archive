@@ -43,6 +43,7 @@ const displayBooks = (data) => {
 		//Create Div for Show Books
 		const div = document.createElement("div");
     	div.classList.add("col-md-4");
+		//InnerHTML of every Card
     	div.innerHTML = `
       	<!-- Image -->
       	<div class="rounded overflow-hidden border p-2">
